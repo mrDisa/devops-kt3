@@ -1,0 +1,25 @@
+{
+  "name": "devops-kt3",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Node.js CI/CD coursework",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --runInBand",
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "4.21.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.25.1",
+    "eslint": "9.25.1",
+    "globals": "16.0.0",
+    "jest": "29.7.0",
+    "supertest": "7.0.0"
+  }
+}
